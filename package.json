@@ -1,0 +1,31 @@
+{
+  "name": "vp2023",
+  "version": "1.0.0",
+  "description": "veebiprogrammeerimise kursuse raames loodud veeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://TormiViirg@github.com/TormiViirg/veeb2.git"
+  },
+  "keywords": [
+    "veebi",
+    "programmeerimine",
+    "NodeJs",
+    "ExpressJs",
+    "Tallinna",
+    "Ülikool"
+  ],
+  "author": "Tormi Viirg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TormiViirg/veeb2/issues"
+  },
+  "homepage": "https://github.com/TormiViirg/veeb2#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
