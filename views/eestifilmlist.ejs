@@ -7,15 +7,17 @@
 </head>
 <body>
 	<img src="../~rinde/media/pics/banner/vp_banner_2023.png" alt="Veebiprogrammeerimise kursuse bänner">
-	<h1>Praegune hetk</h1>
-	<p>Lehe avamise hetkel oli:</p>
-	<ul>
-		<li>kuupäev: <%= dateN%><li>
-		<li>kell: <%=timeN %></li>
-	</ul>
-	<hr>
-	<ul>
+	<h1>Eesti film</h1>
+	<li><a href="/eestifilm">Eesti filmide avaleht</a></li>
 		<li><a href="/">Avalehele</a></li>
 	<ul>
+	<hr>
+	<h2>Andmebaasis olevad filmid</h2>
+	<ol>
+	<% filmlist.forEach(function(film){%>
+			<li><%= filmtitle %>, toodetud: %></li>
+			<li><%= filmtitle %>, toodetud: %> film.production_year </li>
+		<%= }); %>
+	</ol>
 </body>
 </html>
